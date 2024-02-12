@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.oamk_mobilenative_assignment7_oliver_kern.bmi.BmiScreen
 import com.example.oamk_mobilenative_assignment7_oliver_kern.ui.theme.Oamk_mobileNative_assignment7_oliver_kernTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,25 +23,17 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    BmiScreen()
                 }
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     Oamk_mobileNative_assignment7_oliver_kernTheme {
-        Greeting("Android")
+        BmiScreen()
     }
 }

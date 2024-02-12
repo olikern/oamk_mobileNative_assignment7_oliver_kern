@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">oamk_mobileNative_assignment7_oliver_kern</string>
+    <string name="bmi">"Body mass index"</string>
+    <string name="height">"Height"</string>
+    <string name="weight">"Weight"</string>
+    <string name="result_text_bmi">"Your body mass index is %s"</string>
 </resources>
